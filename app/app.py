@@ -1,10 +1,10 @@
+import json
 import os
 
 from flask import Flask, render_template, request, redirect, jsonify
 import psycopg2
 
 app = Flask(__name__)
-app.config
 
 conn = psycopg2.connect(
     database = 'mydatabase',

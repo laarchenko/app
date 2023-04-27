@@ -1,5 +1,5 @@
-create.sql
-postgres.Dockerfile
+db/create.sql
+db/Dockerfile
 README.md
 run.sh
 
